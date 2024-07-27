@@ -1,7 +1,7 @@
 body {
     position: relative; 
   }
-  #section1 {padding-top:50px;height:730px; background-image: url("file:///C:/Users/yachi/NETFLIX_CLONE/IM/I2.jpg");
+  #section1 {padding-top:50px;height:730px; background-image: url("IM/I2.jpg");
 background-repeat: no-repeat; background-size: cover;}
   #section2 {padding-top:50px;height:500px;color: #fff; background-color: #000000;}
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #000000;}
