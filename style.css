@@ -1,0 +1,190 @@
+body {
+    position: relative; 
+  }
+  #section1 {padding-top:50px;height:730px; background-image: url("file:///C:/Users/yachi/NETFLIX_CLONE/IM/I2.jpg");
+background-repeat: no-repeat; background-size: cover;}
+  #section2 {padding-top:50px;height:500px;color: #fff; background-color: #000000;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #000000;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #000000;}
+  #section42 {padding-top:50px;height:600px;color: #fff; background-color: #000000;}
+  #section4 {padding-top:50px;height:900px;color: #fff; background-color: #000000;}
+  #section6 {padding-top:50px;height:400px;color: #fff; background-color: #000000;}
+  .img1 {
+  position:relative;
+width:300px;
+margin-right:90px;
+bottom:55px;
+  }
+
+  select {
+    width: 30%;
+    height:50px;
+    padding: 16px 20px;
+    border-color:black;
+    border-radius: 4px;
+    background-color: #000000;
+    color:#fff;
+
+  }
+
+  aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+  }
+button {
+  background-color: red;
+  border-radius: 4px;
+  width:30%;
+  padding: 14px 24px;
+}
+
+input[type=text] {
+  width: 20%;
+  padding: 13.5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-left: 470px;
+  opacity:0.3;
+}
+
+.button1 {
+  background-color: red;
+  border-radius: 6px;
+  width:15%;
+  padding: 14px 20px;
+  color: #fff;
+} 
+.h11 {
+  text-align: center;
+  color:white;
+}
+.h12 {
+  text-align: center;
+  color:white;
+}
+.h13 {
+  text-align: center;
+  color:white;
+}
+aside1 {
+  width: 20%;
+  margin-right:380px;
+  float: right;
+  margin-top: -50px;;
+}
+aside2 {
+  width: 40%;
+  margin-right:-0px;
+  float: right;
+  margin-top: 40px;
+}
+.img2{
+position:relative;
+bottom:50px;
+}
+#div1 {
+margin-left:60px;
+margin-top:70px;
+}
+aside3 {
+  width: 20%;
+  margin-right:380px;
+  float: right;
+  margin-top: -40px;;
+}
+
+#div2 {
+  margin-left:60px;
+  margin-top:70px;
+  }
+  
+aside4 {
+    width: 40%;
+    margin-right:-0px;
+    float: right;
+    margin-top: 100px;
+  }
+  .img3 {
+    position:relative;
+    top:10px;
+    }
+
+  .h9 {
+  text-align: center;
+  }
+
+
+    .collapsible {
+      margin-left: 180px;
+      background-color: #777;
+      color: white;
+      cursor: pointer;
+      padding: 28px;
+      width: 75%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 30px;
+      
+      opacity:0.7;
+    }
+    
+    .active, .collapsible:hover {
+      background-color: #555;
+    }
+    
+    .collapsible:after {
+      content: '\002B';
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+    
+    .active:after {
+      content: "\2212";
+    }
+    
+    .content {
+      margin-left: 180px;
+      width: 75%;
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      background-color:#555;
+      color:white;
+      font-size: 25px;
+    }
+    h5 {
+      margin-bottom:50px;
+    }
+    .divider {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+    }
+    
+    .divider::before, .divider::after {
+      flex: 1;
+      content: '';
+      padding: 3px;
+      background-color: grey;
+      margin: 5px;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 100%;
+      border: 1px solid #000000;
+    }
+    
+    th, td {
+      text-align: left;
+      padding: 8px;
+      color:#fff;
+    }
+    
+    tr:nth-child(even){background-color: #000000}
